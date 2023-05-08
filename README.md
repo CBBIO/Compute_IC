@@ -36,5 +36,5 @@ lcl|CADEPI010000066.1_prot_CAB3371947.1_12930	molecular_function	GO:0005524	0	8	
 ```
 + plots/Information_content_```filename```.jpeg represents Information Content (X axis) against probability density (Y axis) for BP, CC and MF.
   + Higher Information Content (right on the X axis) implies more specific GO term and a smaller (left on the X axis) value a more general GO term.
-
+  + Information content is calculated using the formula: $log{}{p(t)}$
 ![InformationContent_GCA_HMMER](https://user-images.githubusercontent.com/84094170/236820920-b35e2c43-9590-4b15-bfd8-7b57f9c5444e.jpeg)
