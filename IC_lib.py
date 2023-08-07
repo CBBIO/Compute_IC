@@ -338,7 +338,7 @@ def dump_ic_data(ic_data, outputfile="ic_data.tsv"):
     # Same format as GOATOOLS
     with open(TSVOUTPUTS_FOLDER+outputfile, "w") as fwrite:
         fwrite.write("\n".join(["\t".join([str(y) for y in x])
-                     for x in ic_data if x]))
+                     for x in ic_data if x])+"\n")
 
 def plot_density(ic_data, filename):
     bins = numpy.linspace(0, 25, 1000)
